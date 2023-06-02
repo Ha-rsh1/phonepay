@@ -1,0 +1,365 @@
+/* navbar css start */
+.navbar-bg{
+  background-color: lightgray;
+  padding: 2rem 0;
+}
+
+.navbar-brand{
+  font-size: 3.5rem;
+  font-style: italic;
+  /* font-weight: bolder;*/
+} 
+
+
+.navbar li{
+  padding: 0 2rem;
+}
+.nav-item{
+  font-size: 2rem;
+}
+
+.navbar li a:hover{
+  color: rgb(87, 31, 160) !important;
+}
+
+.btn-style{
+  width: 12 rem;
+  border-radius: 2 rem;
+  color: white;
+  text-transform: capitalize;
+  background-color: rgb(85, 17, 194);
+}
+
+.btn-style:first-child{
+  margin-right: 2rem;
+}
+
+/* herosection start  */
+header{
+  background-color: lightgrey;
+  min-height: 100vh;
+  width: 100%;
+}
+.main-hero-container{
+  height: 80vh;
+  display: flex;
+  
+}
+
+.main-hero-container h1{
+  text-transform: capitalize;
+  font-weight: bolder;
+}
+.main-hero-para{
+  font-size: 1.5rem;
+  
+  margin: 3rem 0 5rem 0;
+  font-weight: lighter;
+  width: 75%;
+}
+
+
+.main-hero-container h3{
+  
+  font-weight: lighter;
+}
+.main-herosection-images{
+  position: relative;
+}
+
+.main-herosection-images img{
+  width: 60%;
+  height: 75%;
+  margin-top: 10rem;
+  box-shadow: 0 0.8rem 0.8rem rgba(0,0,0,0.25);
+  position: absolute;
+  border-radius: 1.5rem;
+}
+.main-herosection-images .main-hero-img2{
+  position: absolute;
+  width: 60%;
+  height: 30%;
+  left: 55%;
+  top: -2%;
+  box-shadow:  0.8rem  0 0.8rem rgba(0,0,0,0.25);
+}
+
+.input-group{
+  position: relative !important;
+}
+
+.input-group-button{
+  position: absolute;
+  right: 25%;
+  font-size: 1.3rem;
+  top: -2%;
+  color: white;
+  background-color: rgb(135, 222, 171);
+  height: 5rem;
+  width: 25%;
+  border-radius: 4rem !important;
+  text-align: center;
+  padding-top: 1.5rem;
+  text-transform: capitalize;
+
+}
+
+.form-control-text{
+  position: absolute;
+  height: 5rem;
+  border: none;
+  outline-style: none;
+  padding-left: 1.5rem !important;
+  font-size: 1.5rem;
+
+
+}
+
+/* work section start*/
+
+.work-container{
+  width: 80vw;
+  padding: 5rem;
+  box-shadow: 0 0.4rem 1.2rem rgba(0, 0, 0,0.1);
+  margin-top: -5rem;
+  margin-left: 10rem;
+  background-color: white;
+  border-radius: 0.5rem;
+
+}
+
+.work-container .main-heading{
+  font-size: 3rem;
+  /* margin-top: -2rem; */
+  font-weight: bolder;
+  margin-bottom: 4rem;
+  word-spacing: 1rem;
+  text-transform: capitalize;
+}
+/* .work-container-subdiv{
+  padding: 0 6rem;
+} */
+.work-container .sub-heading{
+  font-size: 2rem;
+  font-weight: normal;
+  text-transform: capitalize;
+  padding-top: 3rem;
+
+
+}
+
+.work-container .fontawesome-style{
+  font-size: 2.3rem;
+  color: darkorchid;
+  width: 6rem;
+  height: 6rem;
+  border-radius: 50%;
+  background-color: yellow;
+  align-items: center;
+  padding-top: 2rem;
+
+} 
+
+/* work section end*/
+
+
+/* aboutus section start*/
+.our-services{
+  margin: 5rem 0;
+}
+.our-services img{
+  width: 70%;
+  height: 75%;
+  margin-top: 10rem;
+  box-shadow: rgba(0,0,0,0.25) 0px 0.8rem 0.8rem;
+  border-radius: 1.5rem;
+
+}
+
+.our-services .mini-title{
+  text-transform: uppercase;
+  font-weight: normal;
+  margin: 3rem 0;
+  text-align: left;
+  font-size: 1.5rem;
+}
+
+.our-services .main-heading{
+  font-weight: bolder;
+
+}
+
+.our-services .our-services-info{
+  margin-top: 4rem;
+  text-transform: capitalize;
+
+}
+.our-services .our-services-number{
+  width: 3rem;
+  height: 3rem;
+  background-color: transparent;
+  text-align: center;
+ display: grid;
+  border-radius: 50%;
+  border: 0.1rem solid violet;
+  font-size: 1.5rem;
+  place-items: center;
+  
+  
+
+}
+
+.our-services .our-services-data{
+  padding-left: 2rem;
+  
+}
+
+.our-services .our-services-data p{
+  margin: 1rem 0;
+   
+  
+}
+.btn-style-border{
+  border-radius: 3rem ;
+  height: 3rem;
+  width: 7rem;
+  background-color: transparent;
+  color: rgb(187, 10, 10);
+}
+
+/* about us sections ends */
+
+/* service section starts */
+.service-main-container{
+  margin-top: 3rem;
+  padding: 3rem 0;
+
+}
+.service-main-container .main-heading{
+  margin: 4rem 0;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+.work-container-subdiv:hover{
+  background-color: rgb(195, 144, 243);
+  cursor: pointer;
+
+}
+.work-container-subdiv:hover >.fontawesome-style{
+  background-color: white;
+}
+.service-main-container .work-container-subdiv{
+  box-shadow: 0 0.1rem 0.4rem rgba(139, 126, 126, 0.836);
+  padding: 3rem;
+
+}
+.work-container-subdiv .fontawesome-style{
+  font-size: 2.5rem;
+  color: rgb(165, 9, 152);
+  margin-left: 8rem;
+  width: 5rem;
+  height: 5rem;
+  border-radius: 5rem;
+  background-color:lightgreen;
+  padding-left: 1.5rem;
+  padding-top: 1.5rem;
+  
+}
+.work-container-subdiv .sub-heading{
+  text-transform: capitalize;
+  font-size: bold;
+  text-align: center;
+}
+
+/* service secttion ends */
+
+/* contact us section start */
+
+.contactus-section{
+  margin:15rem
+}
+
+.contact-leftside img{
+  width: 90%;
+  height: 30rem;
+
+}
+
+.contact-input-feild{
+  margin-bottom: 3rem;
+ 
+}
+
+.form-control{
+  height: 5rem;
+  border-radius: 0.5rem;
+  font-size: 1.6rem;
+  font-weight: lighter;
+  padding-left: 1rem;
+}
+
+.form-check-input{
+  width: 2rem;
+  height: 2rem;
+}
+
+.form-checkbox-style{
+  margin: 4rem 0;
+}
+
+.main-hero-para{
+  font-size: 1.5rem;
+  margin: 0;
+  padding: 0 2rem;
+  margin-bottom: 2rem;
+}
+
+/* contact section end */
+
+/* footer section start */
+
+footer{
+  padding: 5rem 0;
+  background-color: rgb(46, 46, 241);
+  color: white;
+}
+
+/* footer section end */
+
+@media (max-width:998px){
+  .navbar .navbar-collapse{
+    margin-top: 1rem;
+    background-color: white;
+    padding: 2rem 1rem;
+  }
+  .input-group .btn-style{
+    font-size: 1.2rem;
+  }
+  .main-hero-container h1{
+    font-size: 2.5rem;
+  }
+
+  .main-hero-para{
+    font-size: 1.5rem;
+    padding-right: 1rem;
+    width: 100%;
+  }
+
+  .main-hero-container .header-left-side >h3{
+    padding-left: 4rem;
+    margin-top: 1rem;
+
+  }
+  .main-herosection-images{
+    position: relative;
+    height: 25rem;
+  }
+  .work-container{
+    margin-top: 6rem;
+    width: 100%;
+
+  }
+
+  
+}
+
